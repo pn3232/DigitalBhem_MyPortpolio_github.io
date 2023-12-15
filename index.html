@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>potrfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33fa27397d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+<nav>
+    <img src="photos/PRASHANTH.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">Aboout</a></li>
+        <li><a href="#services">Servicess</a></li>
+        <li><a href="#portfolio">potrfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+    <p>Student Enthusiast</p>
+    <h2>Hi , I'm <span>Prashanth N</span><br>From India</h2>
+</div>
+       </div> 
+    </div>
+    <!-- ------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photos/p1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Welcome to my personal portfolio I'm an ambitious Student dedicated to pursuing excellence.
+                        Here,you'll find a showcase of my academic achievements,creative endeavors,and a glimpse into my journey of growth and learning
+                         </p><br/>
+                        <pre>Name : Prashanth N                  phone : 9353744085</pre><br>
+                        <pre>city : Bengaluru,Karnataka          Email : prashanthn3434@gmail.com</pre><br>
+                        <pre>DOB : 16-oct-2001                   Study : Visvesvary Technological Univetsity(VTU)</pre><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Intership')">Intership</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <h1>My Skills</h1>
+                        <div class="skills-area">
+                          <div class="skill">
+                            <div class="skill-title">HTML</div>
+                            <div class="skill-bar"></div>
+                            <div class="html skill-fill">
+                              <span class="skill-percent">95%</span>
+                            </div>
+                          </div>
+                          <div class="skill">
+                            <div class="skill-title">CSS</div>
+                            <div class="skill-bar"></div>
+                            <div class="css skill-fill">
+                              <span class="skill-percent">90%</span>
+                            </div>
+                          </div>
+                          <div class="skill">
+                            <div class="skill-title">JavaScript</div>
+                            <div class="skill-bar"></div>
+                            <div class="js skill-fill">
+                              <span class="skill-percent">70%</span>
+                            </div>
+                          </div>
+                          <div class="skill">
+                            <div class="skill-title">MY SQL</div>
+                            <div class="skill-bar"></div>
+                            <div class="mysql skill-fill">
+                              <span class="skill-percent">80%</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="Intership">
+                        <ul>
+                            <li><span>Grow with code</span><br>Web Development</li>
+                            <li><span>Digital Bhem</span><br>Web Development</li>
+                            <li><span>Codesoft</span><br>Web Developmentr</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li> <span> Master of Computer Application</span><br>2022-2024
+                            <br>Brindavan College Of Engineering <br>
+                        Visvesvary Technological Univetsity(VTU)</li>
+                            <li><span>Bachelor of Science (PMC'S)</span><br>2019-2022 <br>
+                                KLE Society's S Nijalingappa College <br>
+                            Bangalore City Univetsity(BCU)</li>
+                            <li><span>Pre-University Course(PUC)</span><br>2017-2019 <br>
+                                Narayana Pu College <br>Karnataka State Board
+                            </li>
+                            <li><span>Secondary School Leaving Certificate(SSLC)</span><br>
+                            2017 <br>Shanthi Dhama English School <br>
+                            Karanataka Statae Board</li>
+                        </ul>
+                    </div>
+             </div>  
+            </div>
+        </div>
+    </div>
+    <!----------services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A web designer creates the layout and design of a website. In simple terms,
+                         a website designer makes a site look good.
+                          They use design programmes to create visual elements and usually have expertise in user interface (UI),
+                         which means they strategically design a site that's intuitive and easy for visitors to navigate. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design involves managing the user journey as they interact with a product or service,
+                        while UI design focuses on the actual construction of that product or service's interface.
+                         UI design is usually considered part of the UX design process.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <h1>Projects</h1><br>
+                    <img src="photos/Loan-Management-System.webp">
+                    <div class="layer">
+                        <h3>Loan Management System</h3>
+                        <p>In this Loan management  System , the customer can look the loan borrow amount
+                            and interest of amount and remaning loan amount.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="photos/gym-management-system.png" >
+                    <div class="layer">
+                        <h3>Landing page</h3>
+                        <p>The website content you to see plan from online by just clicking on it.<br>
+                        In this landing page you can buy Gym membership by using website.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------contact----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>prashanthn3434@gmail.com</p>
+                   <p><i class="fa-solid fa-mobile"></i>9353744085</p>
+                   <div class="social-icons">
+                   
+                </div>
+                <a href="photos/Prashanth N .Resume.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                  </form>
+                  <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-sharp fa-solid fa-copyright"></i>Copyright @ Prashanth.</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzy3fjG8jL7IaI2zD9KJ1StoP2qn1Y0L9HAheXhN_3gnd-VCqROH_KnIfuey4-kOJg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      </body>
+</html>
